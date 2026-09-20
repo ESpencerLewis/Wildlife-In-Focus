@@ -4,13 +4,13 @@
 
 A permanent interactive exhibit at the **California Science Center** — its first fully in-house exhibit — that turns citizen-science data into a personal encounter with the wildlife in a visitor's own neighborhood.
 
-Visitors enter their address at a kiosk screen. Animal footprints walk across the screen toward a wall, where an attract loop is playing. A camera-shutter sound plays from the projector, and the wall changes to photos of animals from each animal class found in the visitor's ZIP code, arranged around a silhouette that invites them to step in and take a selfie with the wildlife. The animal photos come from [iNaturalist](https://www.inaturalist.org/) citizen-science observations, retrieved by image URL.
+Visitors enter their address at a kiosk screen. Animal footprints walk across the screen toward a wall, where an attract loop is playing. A camera-shutter sound plays from a speaker, and the wall changes to photos of animals from each animal class found in the visitor's ZIP code, arranged around a silhouette that invites them to step in and take a selfie with the wildlife. The animal photos come from [iNaturalist](https://www.inaturalist.org/) citizen-science observations, retrieved by image URL.
 
 ## From Prototype to Production
 
 This repo is the prototype behind Wildlife In Focus, developed as part of the design and development process for the finished experience at the California Science Center.
 
-The prototype worked out the interaction, the real-time visual behavior, and the technical approach that were then developed into a public-facing museum installation. The finished exhibit integrates real-time software with physical exhibit hardware and audiovisual systems. It runs every day as a permanent exhibit, for roughly 5,000 visitors a day.
+The prototype worked out the interaction, the real-time visual behavior, and the technical approach that were then developed into a public-facing museum installation. The finished exhibit integrates real-time software with physical exhibit hardware and audiovisual systems. It runs every day as a permanent exhibit in a museum that draws roughly 5,000 visitors a day.
 
 **My role:** I led the technical and creative development of the interactive, working with a team of five to take the concept from prototype through implementation, installation, testing, and ongoing operation. I also maintain the exhibit long-term.
 
@@ -24,7 +24,7 @@ The clip above shows the prototype and demonstrates the underlying interaction a
 
 ### Production
 
-The production system is built from a PC, a Raspberry Pi, a short-throw projector, and a kiosk screen, with photos pulled live from iNaturalist by URL. Getting from prototype to that system required substantial work:
+The production version is a web application, with a web front end and back end, deployed on exhibit hardware: a PC, a Raspberry Pi, a short-throw projector, and a kiosk screen. Animal photos are pulled from iNaturalist by URL. Getting from the TouchDesigner prototype to that system required substantial work:
 
 - Integration with exhibit hardware
 - Deployment on dedicated computers
@@ -34,7 +34,7 @@ The production system is built from a PC, a Raspberry Pi, a short-throw projecto
 - Startup and recovery procedures
 - Documentation for long-term museum operation
 
-At roughly 5,000 visitors a day, every day, the exhibit depends on reliable startup and recovery procedures and has to stay maintainable over years — I own that ongoing maintenance.
+As a permanent exhibit that runs every day in a busy museum, it depends on reliable startup and recovery procedures and has to stay maintainable over years — I own that ongoing maintenance.
 
 ### What this demonstrates
 
@@ -42,6 +42,7 @@ This project is representative of my work at the intersection of creative techno
 
 - **Prototyping and interaction design** — proving out an experience before committing to build it
 - **Real-time systems** — a TouchDesigner prototype driving live visuals, audio cues, and data-driven content
+- **Full-stack web development** — a web front end and back end for the production exhibit
 - **Systems integration** — a PC, Raspberry Pi, short-throw projector, kiosk screen, audio, and network working as one system
 - **Operational reliability** — built for continuous public use, with recovery procedures and handoff documentation
 - **Long-term ownership** — maintaining a permanent exhibit after launch, not just building it
