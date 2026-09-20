@@ -24,7 +24,7 @@ The clip above shows the prototype and demonstrates the underlying interaction a
 
 ### Production
 
-The production version is a web application with a Vue front end (built with Vite) and a back end, deployed on exhibit hardware: a PC, a Raspberry Pi, a short-throw projector, and a kiosk screen. Animal photos are pulled from iNaturalist by URL.
+The production version is a web application with a Vue front end (built with Vite) and a JavaScript back end, deployed on exhibit hardware: a PC, a Raspberry Pi, a short-throw projector, and a kiosk screen. Animal photos are pulled from iNaturalist by URL.
 
 **Web stack:** Vue, Vite, JavaScript, HTML, CSS, and JSON.
 
@@ -46,7 +46,7 @@ This project is representative of my work at the intersection of creative techno
 
 - **Prototyping and interaction design** — proving out an experience before committing to build it
 - **Real-time systems** — a TouchDesigner prototype driving live visuals, audio cues, and data-driven content
-- **Full-stack web development** — a Vue and Vite front end and a back end for the production exhibit
+- **Full-stack web development** — a Vue and Vite front end and a JavaScript back end for the production exhibit
 - **Systems integration** — a PC, Raspberry Pi, short-throw projector, kiosk screen, audio, and network working as one system
 - **Operational reliability** — built for continuous public use, with recovery procedures and handoff documentation
 - **Long-term ownership** — maintaining a permanent exhibit after launch, not just building it
