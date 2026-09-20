@@ -1,6 +1,6 @@
 # WeePaws
 
-The paw-print and bird animation components used in the [Photo Arc](../) exhibit — animated paw prints that cross the screen and cue the wall projection reveal.
+The paw-print and bird animation components used in the [Wildlife In Focus](../) exhibit — animated paw prints that cross the screen and cue the wall projection reveal.
 
 ## Files
 

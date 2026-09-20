@@ -1,6 +1,6 @@
 # WIF Fronds
 
-Generative visual variations used as part of the [Photo Arc](../) exhibit — attractor-driven fronds, stripes, speckles, and blue-stripe patterns.
+Generative visual variations used as part of the [Wildlife In Focus](../) exhibit — attractor-driven fronds, stripes, speckles, and blue-stripe patterns.
 
 | Fronds | Stripes | Speckles | Blue Stripes |
 |---|---|---|---|
